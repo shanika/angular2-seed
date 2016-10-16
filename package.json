@@ -19,10 +19,12 @@
     "angular2-template-loader": "^0.4.0",
     "awesome-typescript-loader": "^1.1.1",
     "css-loader": "^0.23.1",
+    "node-sass": "^3.10.1",
     "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
     "to-string-loader": "^1.1.4",
     "typescript": "^2.0.2",
-    "webpack": "^1.12.9",
+    "webpack": "^1.13.2",
     "webpack-dev-server": "^1.14.0",
     "webpack-merge": "^0.8.4"
   },

@@ -7,9 +7,12 @@ import {BrowserModule} from "@angular/platform-browser";
 import {HttpModule} from "@angular/http";
 import {Home} from "./home/home.component";
 import {LocationStrategy, HashLocationStrategy} from "@angular/common";
+import {SearchBar} from "./search-bar/search-bar.component";
+import {Header} from "./header/header.component";
+import {MapPanel} from "./map-panel/map-panel.component";
 
 @NgModule({
-  declarations: [AppComponent, Home],
+  declarations: [AppComponent, Header, SearchBar, MapPanel, Home],
   imports     : [BrowserModule, FormsModule, HttpModule, RouterModule.forRoot(rootRouterConfig)],
   providers   : [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap   : [AppComponent]
